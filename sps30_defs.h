@@ -1,5 +1,4 @@
-#ifndef SPS30_DEFS_H
-#define SPS30_DEFS_H
+#pragma once
 
 /* =========================================================================
  * Private constants
@@ -77,5 +76,3 @@
 #define SERIAL_NUMBER_MAX_LEN       32u
 #define I2C_CRC8_POLYNOMIAL         0x31u
 #define I2C_CRC8_INIT               0xFFu
-
-#endif /* SPS30_DEFS_H */

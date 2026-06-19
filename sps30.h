@@ -1,5 +1,4 @@
-#ifndef SPS30_H
-#define SPS30_H
+#pragma once
 
 #include "sps30_types.h"
 #include "sps30_defs.h"
@@ -243,5 +242,3 @@ SPS30_Status SPS30_ReadDeviceStatus(SPS30_Dev *dev, uint32_t *status, bool clear
  * @return SPS30_OK or I/O error.
  */
 SPS30_Status SPS30_Reset(SPS30_Dev *dev);
-
-#endif /* SPS30_H */

@@ -1,5 +1,4 @@
-#ifndef SPS30_TYPES_H
-#define SPS30_TYPES_H
+#pragma once
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -68,5 +67,3 @@ typedef struct {
     float nc10;             /**< Number concentration PM10  [#/cm³] */
     float typical_size;     /**< Typical particle size      [µm]    */
 } SPS30_Data;
-
-#endif /* SPS30_TYPES_H */
